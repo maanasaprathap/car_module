@@ -37,7 +37,7 @@ server that hosts a web page. User Interaction: Users access the
 web page served by the ESP32 Cam using a web browser. The web page 
 includes controls for moving the car. Motor Control: Based on user 
 inputs from the web interface, the ESP32 Cam sends commands to the 
-motor driver to control the movement of the car. Live Video 
+motor driver to control the movement of the car. 
 Streaming: The ESP32 Cam captures video footage using its 
 integrated camera. The live video stream is made available through 
 the web server. Remote Surveillance: Users can remotely monitor 
