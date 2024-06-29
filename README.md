@@ -55,7 +55,7 @@ address. The web page will also have buttons to move the car in
 Left, Right, Forward, and reverse directions and can vary the 
 speed with light control as well.
  
-Uses and Applications:
+ Applications:
 
 This project is a practical application of IoT (Internet of 
 Things) and robotics, providing an opportunity to learn about 
