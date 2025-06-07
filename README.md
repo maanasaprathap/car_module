@@ -63,12 +63,68 @@ This repository presents a **Wi-Fi Controlled Surveillance Car** built using the
 * Attach wheels and ensure all circuits are stable and isolated.
 
 ---
+Perfect! Thanks for confirming the contents of the `/scripts/` folder. Here's your fully **revised and accurate `💻 Code Structure`** section for your `README.md`, reflecting the actual files and purpose of each directory:
+
+---
 
 ## 💻 Code Structure
 
-### 📂 `/code/`
+This project supports both **Arduino IDE** and **PlatformIO**, and the codebase is organized for easy setup, compilation, and execution of the ESP32-CAM-based surveillance car.
 
-* `main.ino` — Primary sketch for ESP32-CAM with camera initialization, server setup, and motor control.
+---
+
+### 📂 Root Directory
+
+* **`camera_car.ino`**
+  The main Arduino sketch that powers the ESP32-CAM-based surveillance car.
+  Responsibilities include:
+
+  * Initializing the camera
+  * Connecting to Wi-Fi
+  * Launching a web server
+  * Handling directional commands via HTTP requests
+  * Streaming live video to the browser
+
+* **`esp32_board.json`**
+  Custom board definition for ESP32-CAM, useful when configuring custom settings or using **PlatformIO** for uploading code.
+
+---
+
+### 📂 `/src/`
+
+* **`AsyncTCP.cpp` & `AsyncTCP.h`**
+  These files enable asynchronous TCP communication between the ESP32 module and the client browser.
+
+  * Ensures smooth, non-blocking video streaming
+  * Improves command responsiveness over the web interface
+
+---
+
+### 📂 `/scripts/`
+
+Helper scripts to set up the development environment:
+
+* **`install-arduino-ide.sh`**
+  Installs the Arduino IDE and its required dependencies on supported systems.
+
+* **`install-arduino-core-esp32.sh`**
+  Installs the ESP32 board core (by Espressif) required to compile and upload code via Arduino IDE.
+
+* **`install-platformio.sh`**
+  Sets up PlatformIO — a cross-platform embedded development environment — typically used with Visual Studio Code for building and uploading the project.
+
+---
+
+## 🔄 Code Summary
+
+This code integrates camera streaming, motor control, and web interface into a cohesive system as follows :-
+
+1. **ESP32-CAM Setup**: Initializes camera and connects to Wi-Fi.
+2. **Web Server Launch**: Hosts a browser-accessible interface with direction controls.
+3. **Motor Commands**: Sends GPIO signals to the **L298N motor driver** to control movement.
+4. **Live Feed**: Streams video to the user over MJPEG via an asynchronous TCP server.
+
+With this structure, the code is modular, scalable, and beginner-friendly — whether you're uploading via Arduino or using advanced tools like PlatformIO.
 
 ### How to Upload:
 
