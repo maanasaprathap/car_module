@@ -1,6 +1,6 @@
 # 🚗🔍 Surveillance Car using ESP32-CAM | Wi-Fi Controlled Robotic Camera Car
 
-![Surveillance Car](https://via.placeholder.com/800x400?text=ESP32+Surveillance+Car) <!-- Replace with actual image URL -->
+![Surveillance Car]() <!-- Replace with actual image URL -->
 
 > Remotely control. Stream live video. Explore and secure your surroundings. All from a compact Wi-Fi powered car.
 
