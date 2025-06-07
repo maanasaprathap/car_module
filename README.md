@@ -1,7 +1,3 @@
-Here's an elaborate and engaging `README.md` for your **Surveillance Car using ESP32 CAM Module** project repository, inspired by and referencing the contents of your PDF:
-
----
-
 # 🚗🔍 Surveillance Car using ESP32-CAM | Wi-Fi Controlled Robotic Camera Car
 
 ![Surveillance Car](https://via.placeholder.com/800x400?text=ESP32+Surveillance+Car) <!-- Replace with actual image URL -->
@@ -15,7 +11,7 @@ Here's an elaborate and engaging `README.md` for your **Surveillance Car using E
 This repository presents a **Wi-Fi Controlled Surveillance Car** built using the **ESP32-CAM module**, designed to offer **real-time remote monitoring and mobility**. Whether you want to secure your home, monitor your pets, or explore robotics and IoT, this project is a hands-on gateway to embedded systems and computer vision.
 
 > **Built by:**
-> Sahana S · Maanasa Prathap Chander · Shreya Sankaran · Akshaya A · Neeraja A
+>  Maanasa Prathap Chander · Sahana S · Akshaya A · Neeraja A
 
 ---
 
@@ -55,8 +51,7 @@ This repository presents a **Wi-Fi Controlled Surveillance Car** built using the
 
 ## 🖼️ Circuit Diagram & Hardware Assembly
 
-> ![Circuit Diagram Placeholder](https://via.placeholder.com/400x300?text=Circuit+Diagram)
-> *Refer to the detailed diagrams and images in the `/docs/` folder.*
+> *Refer to the detailed diagrams and images in the PDF of the project added as a file in this repository.*
 
 **Assembly Steps:**
 
@@ -133,6 +128,3 @@ Feel free to fork this repo and extend functionality! Ideas include:
 This project is open-source under the **MIT License**.
 Feel free to use, modify, and enhance it!
 
----
-
-Let me know if you'd like me to generate a downloadable `README.md` file or include any custom branding or visuals!
